@@ -1,11 +1,11 @@
-import Dropdown from '@/components/Dropdown';
+import CharacterSelect from '@/components/CharacterSelect';
 
 export default function Home() {
   return (
     <main>
       <div>
         <div>
-          <Dropdown />
+          <CharacterSelect />
         </div>
       </div>
     </main>

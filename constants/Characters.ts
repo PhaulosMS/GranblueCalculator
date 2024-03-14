@@ -1,5 +1,5 @@
-const Characters = [
-  {
+const Characters = {
+  Katalina: {
     name: 'Katalina',
     title: 'Skybound Protector',
     description: `Katalina once swore an oath of knighthood to the Erste Empire, but those days are long behind her. 
@@ -71,58 +71,96 @@ const Characters = [
       },
     ],
   },
-  {
+  Rackam: {
     name: 'Rackam',
+    title: 'Skybound Protector',
     element: 'Fire',
   },
-  {
+  Io: {
     name: 'Io',
+    title: 'Skybound Protector',
+    element: 'Light',
   },
-  {
+  Eugen: {
     name: 'Eugen',
+    title: 'Skybound Protector',
+    element: 'Earth',
   },
-  {
+  Rosetta: {
     name: 'Rosetta',
+    title: 'Skybound Protector',
+    element: 'Dark',
   },
-  {
+  Lancelot: {
     name: 'Lancelot',
+    title: 'Skybound Protector',
+    element: 'Water',
   },
-  {
+  Vane: {
     name: 'Vane',
+    title: 'Skybound Protector',
+    element: 'Water',
   },
-  {
+  Percival: {
     name: 'Percival',
+    title: 'Skybound Protector',
+    element: 'Fire',
   },
-  {
+  Siegfried: {
     name: 'Siegfried',
+    title: 'Skybound Protector',
+    element: 'Earth',
   },
-  {
+  Charlotta: {
     name: 'Charlotta',
+    title: 'Skybound Protector',
+    element: 'Light',
   },
-  {
+  Yodarha: {
     name: 'Yodarha',
+    title: 'Skybound Protector',
+    element: 'Wind',
   },
-  {
+  Narmaya: {
     name: 'Narmaya',
+    title: 'Skybound Protector',
+    element: 'Dark',
   },
-  {
+  Zeta: {
     name: 'Zeta',
+    title: 'Skybound Protector',
+    element: 'Fire',
   },
-  {
+  Vasaraga: {
     name: 'Vasaraga',
+    title: 'Skybound Protector',
+    element: 'Dark',
   },
-  {
+  Ferry: {
     name: 'Ferry',
+    title: 'Skybound Protector',
+    element: 'Light',
   },
-  {
+  Ghandaghoza: {
     name: 'Ghandaghoza',
+    title: 'Skybound Protector',
+    element: 'Fire',
   },
-  {
+  Cagliostro: {
     name: 'Cagliostro',
+    title: 'Skybound Protector',
+    element: 'Earth',
   },
-  {
+  Id: {
     name: 'Id',
+    title: 'Skybound Protector',
+    element: 'Dark',
   },
-];
+  MC: {
+    name: 'Gran/Djeeta',
+    title: 'Skybound Protector',
+    element: 'Wind',
+  },
+};
 
 export default Characters;
