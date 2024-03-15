@@ -8,7 +8,7 @@ const CharacterSelect = () => {
   const [activeSelection, setActiveSelection] = useState<string>('');
 
   return (
-    <div className="text-white m-5">
+    <div className="text-white">
       <h1 className="font-bold text-3xl">
         Active Selection: {activeSelection}
       </h1>
@@ -17,7 +17,7 @@ const CharacterSelect = () => {
           ([key, character]: [string, CharacterType]) => (
             <div
               key={key}
-              className="flex gap-2 mb-4 hover:cursor-pointer py-1 pr-4 hover:font-bold"
+              className="flex gap-2 mb-4 hover:cursor-pointer hover:font-bold"
               onClick={() => setActiveSelection(key)}
             >
               <Image
