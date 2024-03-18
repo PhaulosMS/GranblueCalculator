@@ -6,6 +6,8 @@ html {
   @apply bg-black text-white;
 }
 
-body {
-  @apply bg-cover bg-no-repeat;
+html {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

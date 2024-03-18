@@ -3,7 +3,7 @@ import SigilSlot from './SigilSlot';
 
 const CharacterInfo = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-yellow-500 h-fit">
       <Weapon />
       <SigilSlot />
     </div>

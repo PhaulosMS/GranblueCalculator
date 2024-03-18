@@ -1,14 +1,10 @@
 const Sigils = [
   {
-    name: 'Damage Cap V',
-    effect: 'Raises Damage cap',
-  },
-  {
     name: 'Damage Cap V+',
     effect: 'Raises damage cap',
   },
   {
-    name: 'Critical Hit Rate',
+    name: 'Critical Hit Rate V+',
     effect: 'Raises critical hit chance',
   },
   {
@@ -16,7 +12,7 @@ const Sigils = [
     effect: 'Attacks always act as superior element vs target',
   },
   {
-    name: 'Supplementary Damage V',
+    name: 'Supplementary Damage V+',
     effect: 'Chance to deal addition attack, has its own damage cap value',
   },
 ];
